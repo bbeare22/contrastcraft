@@ -30,7 +30,7 @@ A perfect showcase of modern front-end architecture, responsive UI, and microint
 Clone the repo and start the dev server:
 
 ```bash
-git clone https://github.com/USERNAME/contrastcraft.git
+git clone https://github.com/bbeare22/contrastcraft.git
 cd contrastcraft
 npm install
 npm run dev
