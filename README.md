@@ -1,6 +1,6 @@
 # 🎨 ContrastCraft — Accessible Palette Generator
 
-**Live Demo:** 🌐 [contrastcraft.vercel.app]((https://contrastcraft.vercel.app))
+**Live Demo:** 🌐 [contrastcraft.vercel.app](https://contrastcraft.vercel.app)
 
 ContrastCraft is a sleek, accessible color palette generator built with **React**, **Vite**, and **Tailwind CSS**.  
 It generates 12-step tonal palettes from a base color, checks **WCAG contrast ratios** for both light and dark text, supports **dark mode**, and exports palettes as **CSS variables or JSON tokens**.  
