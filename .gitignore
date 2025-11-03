@@ -1,17 +1,64 @@
-# Node & build artifacts
+# ------------------------------------------------------------
+# 🧠 General
+# ------------------------------------------------------------
 node_modules
 dist
+build
 .env
+.env.*
+!.env.example
 .DS_Store
-
-# Editor files
-.vscode/
-.idea/
-
-# Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
 
-# Local environment
+# ------------------------------------------------------------
+# ⚛️ React / Vite
+# ------------------------------------------------------------
+.vite
 *.local
+.cache
+*.tsbuildinfo
+
+# ------------------------------------------------------------
+# 🧱 Next.js / Prisma / Express
+# ------------------------------------------------------------
+.prisma
+*.sqlite
+*.db
+*.db-journal
+coverage
+tmp
+logs
+out
+.idea
+.vscode/*
+!.vscode/settings.json
+
+# ------------------------------------------------------------
+# 🧑‍💻 Deployment
+# ------------------------------------------------------------
+.vercel
+.render
+netlify.toml
+*.swp
+*.swo
+*.bak
+
+# ------------------------------------------------------------
+# 🧩 OS & Editor
+# ------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ------------------------------------------------------------
+# 🧪 Testing / Cache
+# ------------------------------------------------------------
+jest/
+__tests__/
+coverage/
+.cache/
